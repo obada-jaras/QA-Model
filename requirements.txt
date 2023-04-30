@@ -4,11 +4,17 @@ scikit-learn
 
 # for training
 datasets
-transformers
 sentencepiece
 farasapy
 pyarabic
 fuzzysearch
+
+# for transformer
+transformers
+accelerate
+datasets
+torch
+evaluate
 
 # for Google Cloud TPU training
 tensorflow
