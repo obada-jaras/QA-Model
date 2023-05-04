@@ -1,6 +1,6 @@
 # for utils
 argparse
-scikit-learn
+# scikit-learn
 
 # for training
 datasets
