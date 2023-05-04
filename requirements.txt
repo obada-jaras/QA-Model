@@ -1,21 +1,7 @@
-# for utils
-argparse
-
-# for training
 datasets
-sentencepiece
-farasapy
-pyarabic
-fuzzysearch
-
-# for transformer
 transformers
-accelerate
-datasets
-torch
-evaluate
-
-# for Google Cloud TPU training
-tensorflow
-torch
-torchvision
+argparse
+fuzzysearch
+pyarabic
+tqdm
+numpy
