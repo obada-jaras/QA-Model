@@ -48,7 +48,7 @@ def main(input_file, output_dir, include_val, train_ratio=DEFAULT_TRAIN_RATIO,
     train_data, val_data, test_data = split_data(input_file, train_ratio, val_ratio, include_val)
 
     save_data({"data": train_data, "version": "1.1"}, f"{output_dir}/train_dataset.json", output_indent)
-    save_data({"data": test_data, "version": "1.1"}, f"{output_dir}/test_dataset.json", output_indent)
+    save_data({"data": test_data, "version": "1.1"}, f"{output_dir}/dev_dataset.json", output_indent)
     if include_val:
         save_data({"data": val_data, "version": "1.1"}, f"{output_dir}/val_dataset.json", output_indent)
 
